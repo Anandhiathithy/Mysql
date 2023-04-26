@@ -1,0 +1,138 @@
+What is MySQL?
+
+   * MySQL is a relational database management system
+   * MySQL is open-source
+   * MySQL is free
+   * MySQL is ideal for both small and large applications
+   * MySQL is very fast, reliable, scalable, and easy to use
+   * MySQL is cross-platform
+   * MySQL is compliant with the ANSI SQL standard
+   * MySQL was first released in 1995
+   * MySQL is developed, distributed, and supported by Oracle Corporation
+  *  MySQL is named after co-founder Monty Widenius's daughter: My
+
+Who Uses MySQL?
+
+   1. Huge websites like Facebook, Twitter, Airbnb, Booking.com, Uber, GitHub, YouTube, etc.
+   2.Content Management Systems like WordPress, Drupal, Joomla!, Contao, etc.
+   3.A very large number of web developers around the world
+   
+  MySQL Features
+
+MySQL is a relational database management system (RDBMS) based on the SQL (Structured Query Language) queries. It is one of the most popular languages for accessing and managing the records in the table. MySQL is open-source and free software under the GNU license. Oracle Company supports it.
+
+The following are the most important features of MySQL:
+
+*Easy to use
+
+MySQL is easy to use. We have to get only the basic knowledge of SQL. We can build and interact with MySQL by using only a few simple SQL statements.
+
+*It is secure
+
+MySQL consists of a solid data security layer that protects sensitive data from intruders. Also, passwords are encrypted in MySQL.
+
+*Client/ Server Architecture
+
+MySQL follows the working of a client/server architecture. There is a database server (MySQL) and arbitrarily many clients (application programs), which communicate with the server; that is, they can query data, save changes, etc.
+
+*Free to download
+
+MySQL is free to use so that we can download it from MySQL official website without any cost.
+*Memory efficiency
+
+Its efficiency is high because it has a very low memory leakage problem.
+
+*High Performance
+
+MySQL is faster, more reliable, and cheaper because of its unique storage engine architecture. It provides very high-performance results in comparison to other databases without losing an essential functionality of the software. It has fast loading utilities because of the different cache memory.
+
+*High Productivity
+
+MySQL uses Triggers, Stored procedures, and views that allow the developer to give higher productivity.
+
+*Platform Independent
+
+It can download, install, and execute on most of the available operating systems.
+
+MySQL Data Types
+
+A Data Type specifies a particular type of data, like integer, floating points, Boolean, etc. It also identifies the possible values for that type, the operations that can be performed on that type, and the way the values of that type are stored. In MySQL, each database table has many columns and contains specific data types for each column.
+
+We can determine the data type in MySQL with the following characteristics:
+
+    1.The type of values (fixed or variable) it represents.
+    2.The storage space it takes is based on whether the values are a fixed-length or variable length.
+    3.Its values can be indexed or not.
+    4.How MySQL performs a comparison of values of a particular data type.
+
+MySQL supports a lot number of SQL standard data types in various categories. It uses many different data types that can be broken into the following 
+categories: numeric, date and time, string types, spatial types, and JSON data types.
+
+The following table contains all numeric data types that support in MySQL:
+Data Type Syntax 	Description
+TINYINT 
+
+It is a very small integer that can be signed or unsigned. If signed, the allowable range is from -128 to 127. If unsigned, the allowable range is from 0 to 255. We can specify a width of up to 4 digits. It takes 1 byte for storage.
+SMALLINT
+
+It is a small integer that can be signed or unsigned. If signed, the allowable range is from -32768 to 32767. If unsigned, the allowable range is from 0 to 65535. We can specify a width of up to 5 digits. It requires 2 bytes for storage.
+MEDIUMINT 
+
+It is a medium-sized integer that can be signed or unsigned. If signed, the allowable range is from -8388608 to 8388607. If unsigned, the allowable range is from 0 to 16777215. We can specify a width of up to 9 digits. It requires 3 bytes for storage.
+INT 
+
+It is a normal-sized integer that can be signed or unsigned. If signed, the allowable range is from -2147483648 to 2147483647. If unsigned, the allowable range is from 0 to 4294967295. We can specify a width of up to 11 digits. It requires 4 bytes for storage.
+BIGINT 	
+
+It is a large integer that can be signed or unsigned. If signed, the allowable range is from -9223372036854775808 to 9223372036854775807. If unsigned, the allowable range is from 0 to 18446744073709551615. We can specify a width of up to 20 digits. It requires 8 bytes for storage.
+FLOAT(m,d) 	
+
+It is a floating-point number that cannot be unsigned. You can define the display length (m) and the number of decimals (d). This is not required and will default to 10,2, where 2 is the number of decimals, and 10 is the total number of digits (including decimals). Decimal precision can go to 24 places for a float type. It requires 2 bytes for storage.
+DOUBLE(m,d) 
+
+It is a double-precision floating-point number that cannot be unsigned. You can define the display length (m) and the number of decimals (d). This is not required and will default to 16,4, where 4 is the number of decimals. Decimal precision can go to 53 places for a double. Real is a synonym for double. It requires 8 bytes for storage.
+
+
+
+MySQL Variables
+
+Variables are used for storing data or information during the execution of a program. It is a way of labeling data with an appropriate name that helps to understand the program more clearly by the reader. The main purpose of the variable is to store data in memory and can be used throughout the program.
+
+MySQL can use variables in three different ways, which are given below:
+
+    1.User-Defined Variable
+    2.Local Variable
+    3.System Variable
+    
+    
+    
+    How to install MySQL
+
+MySQL is one of the most popular relational database management software that is widely used in today's industry. It provides multi-user access support with various storage engines. It is backed by Oracle Company. In this section, we are going to learn how we can download and install MySQL for beginners.
+
+Prerequisites
+
+The following requirements should be available in your system to work with MySQL:
+
+    1.MySQL Setup Software
+    2.Microsoft .NET Framework 4.5.2
+    3. Microsoft Visual C++ Redistributable for Visual Studio 2019
+    4.RAM 4 GB (6 GB recommended)
+    
+    
+    MySQL Connection
+
+A connection is a computer science facility that allows the user to connect with the database server software. A user can connect with the database server, whether on the same machine or remote locations. Therefore, if we want to work with the database server to send commands and receive answers in the form of a result set, we need connections. In this article, we are going to learn how we can connect to MySQL Server in various ways.
+MySQL Connection Types
+
+MySQL provides various ways to connect with the database server. Once we have installed the MySQL server, we can connect it using any of the client programs that are listed below:
+
+    1.Command-line client
+    2.MySQL Workbench
+    3.PHP Script.
+
+
+
+
+
+
